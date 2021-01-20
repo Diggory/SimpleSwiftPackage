@@ -1,12 +1,12 @@
-struct SimpleSwiftPackage {
+public struct SimpleSwiftPackage {
     var text = "Hello, World!"
     
-    func hello() {
-        print("Hello")
+    func sayHello() {
+        print(text)
     }
 }
 
-struct TestStruct {
+public struct TestStruct {
     func hello() {
         print("Hello from TestStruct")
     }
