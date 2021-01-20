@@ -5,3 +5,9 @@ struct SimpleSwiftPackage {
         print("Hello")
     }
 }
+
+struct TestStruct {
+    func hello() {
+        print("Hello from TestStruct")
+    }
+}
