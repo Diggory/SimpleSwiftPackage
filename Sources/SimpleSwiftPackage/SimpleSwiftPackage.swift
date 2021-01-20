@@ -1,18 +1,7 @@
-public struct SimpleSwiftPackage {
-    var text = "Hello, World!"
-    
-    func sayHello() {
-        print(text)
-    }
-}
+import Foundation
 
-public struct TestStruct {
-    func hello() {
-        print("Hello from TestStruct")
-    }
-}
-
-class SwiftClass {
+@objc
+class SwiftClass : NSObject {
     let text = "Foo"
     
     func sayHello() {
