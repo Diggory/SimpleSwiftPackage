@@ -1,7 +1,7 @@
 import Foundation
 
 @objc
-class SwiftClass : NSObject {
+public class SwiftClass : NSObject {
     let text = "Foo"
     
     func sayHello() {
