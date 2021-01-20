@@ -11,3 +11,11 @@ public struct TestStruct {
         print("Hello from TestStruct")
     }
 }
+
+class SwiftClass {
+    let text = "Foo"
+    
+    func sayHello() {
+        print(text)
+    }
+}
