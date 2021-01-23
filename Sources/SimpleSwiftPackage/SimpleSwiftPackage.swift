@@ -3,7 +3,7 @@ import Foundation
 @objc public class SwiftClass : NSObject {
     let text = "Foo"
     
-    func sayHello() {
+    public func sayHello() {
         print(text)
     }
 }
