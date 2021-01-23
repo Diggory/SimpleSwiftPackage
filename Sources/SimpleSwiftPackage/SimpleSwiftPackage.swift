@@ -1,6 +1,6 @@
 import Foundation
 
-@objcMembers public class SwiftClass : NSObject {
+@objcMembers class SwiftClass : NSObject {
     @objc var text = "Foo"
     
     public func sayHello() {
